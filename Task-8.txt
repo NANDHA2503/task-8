@@ -1,0 +1,176 @@
+1.public class Main {
+     public static void main (String [] args){
+     
+          int a=5,b=10,c=4,d=5;
+          
+          if ((c+d)<(a+b)){
+          
+          System.out.println("The sum of a and b is greater than sum sum of c and d ");
+          }
+          else {
+              System.out.println("flase");
+          }
+          
+     }
+}
+========================================================================
+
+2.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+         
+         int a=4;
+         
+        if (a%2==0){
+            System.out.println("Even Number");
+        }else{
+            System.out.println("odd Number");
+        }
+     }
+}
+=========================================================================
+
+3.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+         
+        char b;
+        for(b='A';b<='Z';++b){
+            System.out.print(b +" ");
+        }
+     }
+}
+==============================================================================
+4.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+     
+          int i=10;
+          int j=5;
+          int temp;
+          
+          System.out.println("Before swapping:");
+          System.out.println("i value is:" +i);
+          System.out.println("j value is:" +j);
+          
+          
+          temp=i;
+          i=j;
+          j=temp;
+          
+          System.out.println("After swapping:");
+          System.out.println("i value is:" +i);
+          System.out.println("j value is:" +j);
+          
+     }
+}
+==================================================================================
+
+5.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+        int num=7;
+        int count=0;
+        for(int i=1; i<=num; i++){
+            if(num%i==0){
+               count++; 
+            }
+        
+        }
+        if(count==2){
+            System.out.println("prime");
+            
+        } else{
+            System.out.println("not prime");
+        }
+     }
+     
+}
+==========================================================================
+
+6.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+     
+       int num=5;
+       int fact=1;
+        
+        for(int i=1; i<=5; i++){
+            fact= fact*i;
+        }
+         System.out.println(fact);
+     }
+}
+==============================================================================
+
+7.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+     
+       String msg= "Guvi Geek";
+       
+         System.out.println(msg.length());
+     }
+}
+=================================================================================
+
+8.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+     
+      for (int i=1; i<=10; i++){
+
+            System.out.println("\"Welcome to Guvi\" ");
+     }
+     }
+}
+===============================================================================
+
+9.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+     
+          int brithyear;
+          int presentyear;
+          int result;
+          
+          Scanner input= new Scanner (System.in);
+          
+          System.out.println("Enter the brith year:");
+          
+          brithyear=input.nextInt();
+          
+          System.out.println("Enter the present year:");
+          
+          presentyear=input.nextInt();
+          
+          result=(presentyear-brithyear);
+          
+             System.out.println("The Age of the person is " + result);
+          
+          if(result<18)
+            System.out.println("Minor");
+          
+          else if (result>60)
+            System.out.println("Senior Citizen");
+          
+          else 
+            System.out.println("Major");
+     }
+}
+======================================================================================
+
+10.import java.util.Scanner;
+public class Main {
+     public static void main (String [] args){
+     
+          int num= 15682;
+          int count=0;
+          
+          while (num!=0){
+              num=num/10;
+              count++;
+          }
+          System.out.println(count);
+     }
+}
